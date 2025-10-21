@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #e6b800;
+}
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+.pokemon-card {
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    text-align: center;
+}
+.pokemon-card img {
+    width: 80px;
+}
+.pokemon-name {
+    font-weight: bold;
+    margin: 5px 0;
+}
+.pokemon-type {
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 2px;
+    color: white;
+}
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.remove-btn:hover {
+    background-color: darkred;
+}
+.empty-slot {
+    background: #ddd;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
